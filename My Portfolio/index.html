@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Johndell Billano — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="glow"></div>
+<nav><a href="#home" class="logo" id="logo"></a><div class="links" id="links"><span class="pill" id="pill"></span></div><a class="talk" href="#contact">Let’s Talk ↗</a><button class="burger" id="burger" aria-label="Menu">Menu</button></nav>
+<main>
+<section id="home">
+ <div class="orb o1"></div><div class="orb o2"></div>
+ <p class="tag" id="tag"></p>
+ <div class="hint">Hover over the photo to reveal color</div>
+ <h1 class="hname" id="name"></h1>
+ <div class="portrait" id="portrait"><img class="p-base" id="pimg" alt="Portrait"><img class="p-color" alt="" aria-hidden="true"></div>
+ <div class="hl"><h2 id="title"></h2><p id="intro"></p><div class="btns"><a class="btn hot" href="#projects">Explore Work ↗</a><a class="btn" href="#contact">Let’s Talk →</a></div></div>
+ <ul class="hs" id="hs"></ul>
+ <div class="scroll"></div>
+</section>
+
+<section id="about"><div class="wrap">
+ <div class="eyebrow rv">About</div>
+ <h2 class="big rv" id="aboutHead"></h2>
+ <div class="about">
+  <div class="lead rv" id="lead"></div>
+  <div class="side rv" style="--d:.15s"><div class="pic" id="pic"></div><dl class="facts" id="facts"></dl><div id="aboutP"></div><div class="int" id="int"></div></div>
+ </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+ <div class="eyebrow rv">Journey</div>
+ <h2 class="big rv">Where I’ve <span class="serif">been</span></h2>
+ <div class="tl" id="tl"></div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+ <div class="eyebrow rv">Featured work</div>
+ <h2 class="big rv">Selected <span class="serif">projects</span></h2>
+ <div class="grid" id="grid"></div>
+</div></section>
+
+<section id="showcase">
+ <div class="orb o1"></div>
+ <div class="ring" data-p=".05" style="width:min(70vw,720px);height:min(70vw,720px)"></div>
+ <div class="ring" data-p="-.08" style="width:min(48vw,480px);height:min(48vw,480px);border-color:rgba(255,138,61,.3)"></div>
+ <div class="wrap"><div class="stmt" id="stmt"></div></div>
+</section>
+
+<section id="skills"><div class="wrap">
+ <div class="eyebrow rv">Toolkit</div>
+ <h2 class="big rv">Things I <span class="serif">build with</span></h2>
+ <div class="sk" id="sk"></div>
+</div></section>
+
+<section id="contact"><div class="orb o1" style="top:30%"></div><div class="wrap">
+ <div class="eyebrow rv" style="justify-content:center">Contact</div>
+ <h2 class="big rv">LET’S CREATE <span class="serif">something</span> TOGETHER.</h2>
+ <a class="mail rv" id="mail"></a><br>
+ <a class="btn hot rv" id="mailBtn">Send a message ↗</a>
+ <div class="soc rv" id="soc"></div>
+ <footer><span id="foot"></span><span>Built with HTML, CSS &amp; JavaScript</span></footer>
+</div></section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
